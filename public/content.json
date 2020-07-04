@@ -57,5 +57,52 @@
         "sandboxId": "Sabs52b1As5B6Q"
       }
     ]
+  },
+  {
+    "title": "Logic",
+    "examples": [
+      {
+        "name": "If/Else Blocks",
+        "sandboxId": "6pnYWjt3BIwZNQ"
+      },
+      {
+        "name": "Else-If Blocks",
+        "sandboxId": "k8l1-hpW_qsO_g"
+      },
+      {
+        "name": "Each Blocks",
+        "sandboxId": "iVInrFBNfy6Zxg"
+      },
+      {
+        "name": "Keyed Each Blocks",
+        "sandboxId": "vRdu6uj0sTplDQ"
+      },
+      {
+        "name": "Await Blocks",
+        "sandboxId": "P81qlgRwj2PgCg"
+      }
+    ]
+  },
+  {
+    "title": "Events",
+    "examples": [
+      {
+        "name": "DOM Events",
+        "sandboxId": "p3vDwANrYSqFug"
+      }
+    ]
+  },
+  {
+    "title": "Lifecycle",
+    "examples": [
+      {
+        "name": "onMount",
+        "sandboxId": "u67xJ80dFMwH7A"
+      },
+      {
+        "name": "onDestroy",
+        "sandboxId": "0aJswxcCnNUJUw"
+      }
+    ]
   }
 ]
