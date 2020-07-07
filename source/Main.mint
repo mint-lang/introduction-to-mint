@@ -12,11 +12,8 @@ component Main {
   state content : String = ""
 
   style main {
-    display: grid;
+    display: flex;
     height: 100%;
-
-    grid-template-rows: 1fr;
-    grid-template-columns: 300px 1fr;
   }
 
   fun loadContent (url : String) {
