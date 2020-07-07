@@ -14,6 +14,7 @@ component Main {
   style main {
     display: flex;
     height: 100%;
+    font-family: var(--font-ubuntu-regular);
   }
 
   fun loadContent (url : String) {
