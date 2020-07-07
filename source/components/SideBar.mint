@@ -4,15 +4,18 @@ component SideBar {
   property sections : Array(Section)
 
   style sidebar {
-    /* overflow-y: auto; */
-    background-color: #30353e;
+    background-color: var(--bg-color-1);
   }
 
   style header {
     height: 50px;
     text-align: center;
-    background-color: #3c424d;
+    background-color: var(--bg-color-2);
     border-bottom: 1px solid #1e2128;
+    font-size: 1.25em;
+    color: var(--font-color);
+    padding: .25em;
+    width: 12.5em;
 
     display: flex;
     align-items: center;
@@ -20,23 +23,29 @@ component SideBar {
   }
 
   style sections {
-    color: #EEE;
+    color: var(--font-color);
+    overflow-y: auto;
+    /* Viewport height - header height */
+    height: calc(100vh - 50px);
+    padding-left: .75em;
   }
 
   style section {
-    font-size: 1.4rem;
+    font-size: 1.25em;
     margin: 2rem 0 1rem 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
   }
 
   style examples {
-    margin: 0;
-    padding: 0;
 
     li {
-      margin-bottom: 0.6rem;
+      margin-bottom: .75em;
+
 
       a {
-        color: #EEE;
+        color: var(--font-color);
+        font-size: 1.15em;
       }
     }
   }
@@ -44,13 +53,7 @@ component SideBar {
   fun render {
     <nav::sidebar>
       <header::header>
-        <img
-          height="30"
-          src="https://cdn.jsdelivr.net/gh/sveltejs/branding@master/svelte-logo.svg"/>
-
-        <img
-          height="20"
-          src="arrow-right.png"/>
+        "Introduction to Mint"
       </header>
 
       <ul::sections>

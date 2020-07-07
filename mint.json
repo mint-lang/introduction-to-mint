@@ -1,12 +1,16 @@
 {
   "name": "svelte-to-mint",
-  "source-directories": ["source"],
+  "source-directories": [
+    "source"
+  ],
   "application": {
-    "title": "Svelte To Mint",
+    "title": "Introduction to Mint",
     "head": "assets/head.html",
     "icon": "assets/favicon.png"
   },
   "external": {
-    "stylesheets": ["assets/styles.css"]
+    "stylesheets": [
+      "assets/styles.css"
+    ]
   }
 }
